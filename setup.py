@@ -7,4 +7,5 @@ setup(
     description='Epages client',
     long_description=open('README.md').read(),
     url='https://github.com/inventorum/epages_client/',
+    install_requires = ['requests']
 )
