@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name='epages_client',
-    version='0.1',
-    packages=find_packages(),
+    version='1.0',
+    packages=find_packages(exclude=['generator']),
     description='Epages client',
     long_description=open('README.md').read(),
     url='https://github.com/inventorum/epages_client/',
-
+    install_requires = ['requests']
 )
