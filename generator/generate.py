@@ -10,7 +10,7 @@ start_file = 'api.raml'
 
 _here = Path(__file__).parent.resolve()
 go_raml_path = _here / 'go-raml'
-generted_code_path = _here.parent / 'epages_client'
+generted_code_path = _here.parent / 'epages_rest_client'
 
 _re_include = re.compile(r"!include '?([^\n']+)'?\n")
 
