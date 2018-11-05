@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "epages_rest_client"
-version = "0.1.0"
+version = "0.2.0"
 description = "Epages Rets Api Client"
 authors = ["leiserfg <leiserfg@gmail.com>"]
 
